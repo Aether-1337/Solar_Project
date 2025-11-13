@@ -63,7 +63,3 @@ This project is open source and available under the MIT License.
 
 Data provided by NOAA's Space Weather Prediction Center.
 
-## Contact
-
-- Aether
-Project Link: [https://github.com/Aether-1337/solar-cycle-visualization](https://github.com/yourusername/solar-cycle-visualization)

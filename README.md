@@ -69,5 +69,5 @@ Data provided by NOAA's Space Weather Prediction Center.
 
 ## Contact
 
-Your Name - Aether
+- Aether
 Project Link: [https://github.com/Aether-1337/solar-cycle-visualization](https://github.com/yourusername/solar-cycle-visualization)

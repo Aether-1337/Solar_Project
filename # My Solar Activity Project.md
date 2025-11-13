@@ -1,36 +1,40 @@
- # My Solar Activity Project
+#  Solar Activity Project
 
- * I have used the NOAA solor data to plot sun spot activity over time 
- * I collected the data from https://services.swpc.noaa.gov/json/solar-cycle/observed-solar-cycle-indices.json then plotted it onto a grpah to help visulise the suns behaviour 
- * There was also a predictive data set included on the website, this is represented on the graph - I mergred the observed data set with the predicted data set to create a single graph. 
- * Using AI I have created a code and made a brach within the repository that uses the historical data and machine learning to make a new model.  
- * The results that were fed back are significantly differnt than the current models prediction. 
+I’ve used NOAA solar data to visualize sunspot activity over time.  
+Data was collected from [NOAA’s observed solar cycle indices](https://services.swpc.noaa.gov/json/solar-cycle/observed-solar-cycle-indices.json), and plotted to reveal the Sun’s behavior.  
+A predictive dataset from the same source was merged with the observed data to create a unified graph.  
+Using AI, I developed a branch within the repository that applies machine learning to historical data, generating a new predictive model.  
+The results diverge significantly from the current NOAA predictions, suggesting alternative solar cycle dynamics.
 
- ### Extract
-- Data extracted from two NOAA JSON APIs
-- Handles API response errors and empty responses
+---
+
+##  ETL Breakdown
+
+### Extract
+- Pulled data from two NOAA JSON APIs  
+- Handled empty responses and API errors gracefully  
 
 ### Transform
-- Standardized column names between datasets
-- Converted date strings to datetime objects
-- Added source labels for data tracking
-- Combined datasets using concatenation
+- Standardized column names across datasets  
+- Converted date strings to datetime objects  
+- Added source labels for tracking  
+- Merged datasets via concatenation  
 
 ### Load
-- Data stored in pandas DataFrame for analysis
-- Ready for visualisation and further processing
+- Stored data in pandas DataFrames  
+- Prepared for visualization and further analysis  
 
+---
 
+##  Insights from the Graph
 
-### From the Graph you can see
+- Sunspot activity was lowest between 1792 and 1833  
+- The peak occurred in 1958, marking the most sunspots on record  
+- We are currently in a solar minimum  
 
-- Between the years 1792 and 1833 the sun spot observations were the lowest on record.  
-- That the most sun spots occurd in 1958
-- And that we are currently in a solar minimum
+---
 
+##  Why This Matters
 
-### What this means
-
-- If we are able to accuratly predict the suns behaviour we could try to create tools to protect the earth from high solar activty (solar maxium) protecting satalites and the Earths infrustucrute. 
-- The taget audenice is astronomers and space weather analysts
- 
+Accurate solar behavior prediction could enable protective measures during solar maximums—shielding satellites and Earth’s infrastructure from geomagnetic storms.  
+This project is aimed at astronomers and space weather analysts seeking deeper insight into solar cycles and their implications.

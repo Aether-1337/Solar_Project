@@ -1,0 +1,27 @@
+New Features: Made with Claude 
+
+Machine Learning Model: Uses Gradient Boosting Regressor (one of the most powerful ML models) trained on all historical observations to predict future solar activity
+Advanced Feature Engineering:
+
+Lagged values (1, 3, 6, 12, 24 months back)
+Rolling statistics (means and standard deviations)
+Cyclical time features (sine/cosine for seasonality)
+Rate of change calculations
+
+
+8 Advanced Visualizations:
+
+Full timeline comparison (Observed, NOAA, ML predictions)
+Recent 10-year activity with future predictions
+Distribution analysis of solar activity
+Annual statistics (mean, min, max ranges)
+Feature importance chart (shows which factors matter most)
+ML vs NOAA prediction comparison
+Prediction confidence intervals
+Residual analysis (model accuracy check)
+
+
+Performance Metrics: Shows RMSE and R² score to validate model accuracy
+Detailed Summary: Prints predictions for 12, 24, and 60 months ahead with comparisons
+
+The ML model learns patterns from the entire historical dataset and can identify complex relationships that simple models might miss. It should provide interesting comparisons with NOAA's official predictions

@@ -24,13 +24,7 @@ requests
 
 ## Installation
 
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/solar-cycle-visualization.git
-cd solar-cycle-visualization
-```
-
-2. Install required packages:
+1. Install required packages:
 ```bash
 pip install pandas seaborn matplotlib requests
 ```

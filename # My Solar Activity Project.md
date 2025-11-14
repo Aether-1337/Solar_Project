@@ -14,7 +14,7 @@ A predictive dataset from the same source was merged with the observed data to c
 - Handled empty responses and API errors 
 
 ### Transform
-- Standardized column names across datasets  
+- Standardised column names across datasets  
 - Converted date strings to datetime objects  
 - Added source labels for tracking  
 - Merged datasets via concatenation  
@@ -38,4 +38,5 @@ A predictive dataset from the same source was merged with the observed data to c
 Accurate solar behavior prediction could enable protective measures during solar maximums—shielding satellites and Earth’s infrastructure from geomagnetic storms.  
 
 This project is aimed at astronomers and space weather analysts seeking deeper insight into solar cycles and their implications.
+
 

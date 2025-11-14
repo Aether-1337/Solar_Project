@@ -31,14 +31,6 @@ datetime
 pip install pandas seaborn matplotlib requests datetime
 ```
 
-## Usage
-
-run the main script:
-
-```bash
-python solar_cycle_viz.py
-```
-
 The script will:
 1. Fetch observed solar cycle data from NOAA
 2. Fetch predicted solar cycle data from NOAA

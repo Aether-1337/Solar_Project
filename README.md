@@ -28,7 +28,7 @@ datetime
 
 1. Install required packages:
 ```bash
-pip install pandas seaborn matplotlib requests
+pip install pandas seaborn matplotlib requests datetime
 ```
 
 ## Usage

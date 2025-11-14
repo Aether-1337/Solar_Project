@@ -11,7 +11,7 @@ A predictive dataset from the same source was merged with the observed data to c
 
 ### Extract
 - Pulled data from two NOAA JSON APIs  
-- Handled empty responses and API errors gracefully  
+- Handled empty responses and API errors 
 
 ### Transform
 - Standardized column names across datasets  
@@ -38,3 +38,4 @@ A predictive dataset from the same source was merged with the observed data to c
 Accurate solar behavior prediction could enable protective measures during solar maximums—shielding satellites and Earth’s infrastructure from geomagnetic storms.  
 
 This project is aimed at astronomers and space weather analysts seeking deeper insight into solar cycles and their implications.
+

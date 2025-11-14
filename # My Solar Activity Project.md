@@ -3,8 +3,7 @@
 I’ve used NOAA solar data to visualize sunspot activity over time.  
 Data was collected from [NOAA’s observed solar cycle indices](https://services.swpc.noaa.gov/json/solar-cycle/observed-solar-cycle-indices.json), and plotted to reveal the Sun’s behavior.  
 A predictive dataset from the same source was merged with the observed data to create a unified graph.  
-Using AI, I developed a branch within the repository that applies machine learning to historical data, generating a new predictive model.  
-The results diverge significantly from the current NOAA predictions, suggesting alternative solar cycle dynamics.
+
 
 ---
 
@@ -37,4 +36,5 @@ The results diverge significantly from the current NOAA predictions, suggesting 
 ##  Why This Matters
 
 Accurate solar behavior prediction could enable protective measures during solar maximums—shielding satellites and Earth’s infrastructure from geomagnetic storms.  
+
 This project is aimed at astronomers and space weather analysts seeking deeper insight into solar cycles and their implications.

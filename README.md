@@ -20,6 +20,8 @@ pandas
 seaborn
 matplotlib
 requests
+datetime
+
 ```
 
 ## Installation

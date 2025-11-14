@@ -31,7 +31,7 @@ pip install pandas seaborn matplotlib requests
 
 ## Usage
 
-Simply run the main script:
+run the main script:
 
 ```bash
 python solar_cycle_viz.py
